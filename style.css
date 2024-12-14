@@ -1,0 +1,86 @@
+/* style.css */
+
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f5f4; /* 柔和的米白色背景 */
+    color: #4d4d4d; /* 深灰色文字 */
+    line-height: 1.6;
+  }
+  
+  /* 主体内容样式 */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.9); /* 浅灰色半透明背景 */
+    border-radius: 15px; /* 圆角设计 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 柔和的阴影 */
+    background-image: url('https://i.imgur.com/Q1sQ1Qb.png'); /* 可爱的浅色背景图案 */
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  /* 标题样式 */
+  h1 {
+    text-align: center;
+    color: #7d7264; /* 莫兰迪色系的咖啡色 */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* 段落样式 */
+  p {
+    font-size: 1.1em;
+    color: #595959; /* 深灰色 */
+    text-align: justify;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.6); /* 浅色半透明背景 */
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* 链接样式 */
+  a {
+    color: #a09f94; /* 莫兰迪色系的浅褐色 */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #867f75; /* 更深的莫兰迪色系 */
+    text-decoration: underline;
+  }
+  
+  /* 按钮或链接容器 */
+  button,
+  a {
+    transition: all 0.3s ease; /* 添加渐变效果 */
+  }
+  
+  /* p5.js 容器样式 */
+  #p5jscontainer1 {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6); /* 半透明浅色背景 */
+    border: 2px dashed #d4d2cd; /* 柔和的莫兰迪色系边框 */
+    border-radius: 15px;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    main {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  

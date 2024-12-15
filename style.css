@@ -18,9 +18,7 @@ body {
     background-color: rgba(245, 245, 245, 0.9); /* 浅灰色半透明背景 */
     border-radius: 15px; /* 圆角设计 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 柔和的阴影 */
-    background-image: url('https://i.imgur.com/Q1sQ1Qb.png'); /* 可爱的浅色背景图案 */
     background-repeat: no-repeat;
-    background-size: contain;
   }
   
   /* 标题样式 */
